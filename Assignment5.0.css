@@ -7,8 +7,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
    font-size: 100%;
-   width: 90%;
-   margin: 1em auto;
+    width: 90%;
+    margin: 1em auto;
 }
 h1, h2, h3, p, ul { padding: .5em 0; }
 
@@ -43,13 +43,16 @@ background-image: linear-gradient(to bottom, white 37%, lightsteelblue 63%);
 box-sizing: border-box;
 color: steelblue;
 height: 16%;
-text-align: center;
+a text-align: center;
 & p{ color: black;}
 &
 img{
     float: left;
-    
-}
+    max-width: 120px;
+    min-width: 100px;
+    width: auto;
+    height: auto;
+    }
 }
     a:visited{
         color: maroon;
