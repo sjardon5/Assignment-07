@@ -30,14 +30,17 @@ section {
 }
 
 aside {
-    & h2 { padding: 0;}
     flex-basis: 35%;
     height: fit-content;
     padding: 1em 1.5em;
     margin: 1em 0 1em 1.5em;
     border: 2px solid steelblue;
     border-radius: 25px;
+}
 
+aside h2 {
+    padding: 0;
+    margin: 0 0 0.5em;
 }
 
 header {
